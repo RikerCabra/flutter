@@ -14,3 +14,58 @@
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.navbar {
+    background-color: white;
+}
+
+body {
+    background-color: rgba(212, 216, 212, .30);
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    margin-right:25px !important;
+    display: block;
+}
+
+.post-panel{
+    margin-top: -21px;
+}
+
+.post-form-panel{
+    margin-bottom: -21px;
+}
+
+.post-title{
+    text-align: left;
+    margin-left: 15px;
+}
+
+.post-content{
+    text-align: left;
+    margin-left: 15px;
+}
+
+.post-link{
+    text-align: left;
+}
+
+.post-owner{
+    color: black;
+    font-weight: bold;
+}
+
+.post-creation{
+    opacity: .7;
+}
+.g-links{
+    margin-right: 75px;
+    opacity: .5;
+    font-size: 120%;
+}
+
+.rounded-img{
+    border-radius: 5%;
+}
